@@ -1,0 +1,174 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AsyncDisplayKit (2.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.1)
+  - AsyncDisplayKit/Core (2.1)
+  - AsyncDisplayKit/PINRemoteImage (2.1):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.7)
+    - PINRemoteImage/PINCache
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - DZNEmptyDataSet (1.8.1)
+  - FBRetainCycleDetector (0.1.3)
+  - FBSDKCoreKit (4.19.0):
+    - Bolts (~> 1.7)
+  - Firebase (3.12.0):
+    - Firebase/Core (= 3.12.0)
+  - Firebase/Core (3.12.0):
+    - FirebaseAnalytics (= 3.6.0)
+    - FirebaseCore (= 3.4.7)
+  - FirebaseAnalytics (3.6.0):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.4.7):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.8)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - IGListKit (2.1.0):
+    - IGListKit/Default (= 2.1.0)
+  - IGListKit/Default (2.1.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (2.1.0)
+  - JLRoutes (2.0.1)
+  - JPFPSStatus (0.1)
+  - M80AttributedLabel (1.6.2)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MGSwipeTableCell (1.5.6)
+  - MJRefresh (3.1.12)
+  - MLeaksFinder (0.2.1):
+    - FBRetainCycleDetector
+  - Onboard (2.3.1)
+  - PINCache (3.0.1-beta.2):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.2)
+    - PINCache/Core (= 3.0.1-beta.2)
+  - PINCache/Arc-exception-safe (3.0.1-beta.2):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.2)
+  - PINRemoteImage/Core (3.0.0-beta.7)
+  - PINRemoteImage/iOS (3.0.0-beta.7):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.7):
+    - PINCache (= 3.0.1-beta.2)
+    - PINRemoteImage/Core
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Realm (2.1.2):
+    - Realm/Headers (= 2.1.2)
+  - Realm/Headers (2.1.2)
+  - SDProgressHUD (1.0.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Toast (3.1.0)
+  - UITableView+FDTemplateLayoutCell (1.5.beta)
+  - Valet (2.3.0)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - WQMacro (0.0.6)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - AsyncDisplayKit (~> 2.1)
+  - DZNEmptyDataSet (~> 1.8.1)
+  - FBSDKCoreKit (~> 4.19.0)
+  - Firebase (~> 3.12.0)
+  - IGListKit (~> 2.1.0)
+  - JLRoutes (~> 2.0.1)
+  - JPFPSStatus (~> 0.1)
+  - M80AttributedLabel (~> 1.6.2)
+  - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
+  - MGSwipeTableCell (~> 1.5.6)
+  - MJRefresh (~> 3.1.12)
+  - MLeaksFinder (~> 0.2.1)
+  - Onboard (~> 2.3.1)
+  - ReactiveCocoa (~> 2.5)
+  - Realm (~> 2.1.1)
+  - SDProgressHUD (~> 1.0.0)
+  - SDWebImage (~> 3.7)
+  - Toast (~> 3.1.0)
+  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
+  - Valet (~> 2.3.0)
+  - VTMagic (~> 1.2.4)
+  - WQMacro (~> 0.0.6)
+  - YYKit (~> 1.0.9)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AsyncDisplayKit: 28de788f9d6ec573be7662f0fe8931e656357e93
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FBRetainCycleDetector: f0c7b290bf48ae77f6ae060843ce34ae341781eb
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  Firebase: 8e99eb1ff553ad5bcc6072cc3d925bb89c1244d6
+  FirebaseAnalytics: 9c67af0ebeb8d2146c9b4ea2616439affa947b58
+  FirebaseCore: 46afaf2c2e0419ea7d3acfb08cf26a461a75fe85
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  IGListKit: b826c68ef7a4ae1626c09d4d3e1ea7a169e6c36e
+  JLRoutes: 3652abe3b4ac51bc93ec3a371353d762e8566092
+  JPFPSStatus: 4467a17488382e4c1700bd9d18c92ae581fd6305
+  M80AttributedLabel: 1bcddc0acb6097991bb41fe17fbf947d128836d6
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MGSwipeTableCell: 616700eb0ffd1c611ba909066cb7fd739790a0a7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLeaksFinder: 0850e2f2abc7227adc4d4e2d1992b431264eb4d5
+  Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
+  PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
+  PINRemoteImage: ff63baf185088530db6cfa41cb665e2b5126b5c3
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Realm: efe855f4d977c8ce5a82d3116d9f1ff155a6550c
+  SDProgressHUD: 5de2c06d81774597fdf8b47e30bbe85193d7e4cb
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
+  Valet: ef076e9bb47353c0d879c8febcd53af4f6e92313
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  WQMacro: 6fbb4f77b3cd29eae1221b77cdf48550ab9aad9a
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: e04574b8bf1a019a70c6b150f4bd06bffa30a325
+
+COCOAPODS: 1.1.1
